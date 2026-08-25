@@ -1,0 +1,181 @@
+{
+  "info": {
+    "name": "Microservice User & Order API",
+    "_postman_id": "7c9f5b20-1a4d-4f91-9c3e-82b6d1a7e501",
+    "description": "Postman collection for User Service and Order Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "User Service",
+      "item": [
+        {
+          "name": "Get User 1001 - Gayu",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8087/api/users/1001",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8087",
+              "path": [
+                "api",
+                "users",
+                "1001"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get User 1002 - Priya",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8087/api/users/1002",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8087",
+              "path": [
+                "api",
+                "users",
+                "1002"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get User 1003 - Ravi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8087/api/users/1003",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8087",
+              "path": [
+                "api",
+                "users",
+                "1003"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Invalid User",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8087/api/users/9999",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8087",
+              "path": [
+                "api",
+                "users",
+                "9999"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Order Service",
+      "item": [
+        {
+          "name": "Get Order 5001 - Laptop",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8088/api/orders/5001",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "path": [
+                "api",
+                "orders",
+                "5001"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Order 5002 - Mobile",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8088/api/orders/5002",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "path": [
+                "api",
+                "orders",
+                "5002"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Order 5003 - Headphones",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8088/api/orders/5003",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "path": [
+                "api",
+                "orders",
+                "5003"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Payment for Order 5001",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8088/api/orders/5001/payment",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8088",
+              "path": [
+                "api",
+                "orders",
+                "5001",
+                "payment"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
